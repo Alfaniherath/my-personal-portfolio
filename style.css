@@ -285,6 +285,29 @@ section{
     color:#777;
 }
 
+/* =====================================================
+   PROFILE IMAGE
+===================================================== */
+
+.profile-image{
+    position:absolute;
+    right:15%;
+    bottom:0%;
+    width:min(50vw,600px);
+    z-index:5;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    pointer-events:none;
+}
+
+.profile-image img{
+    width:100%;
+    height:auto;
+    display:block;
+    object-fit:contain;
+}
+
 
 /* =====================================================
    FLOATING CODE
