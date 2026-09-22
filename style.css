@@ -239,14 +239,15 @@ section{
 
 .hero-title .accent{
     color:var(--lime);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .hero-bottom{
-    margin-top:40px;
+    margin-top:10px;
     display:flex;
-    align-items:flex-end;
-    justify-content:space-between;
-    gap:30px;
+    align-items:flex-start;
+    flex-direction:column;
+    gap:25px;
 }
 
 .hero-description{
@@ -303,7 +304,7 @@ section{
 
 .profile-image img{
     width:100%;
-    height:auto;
+    height:700;
     display:block;
     object-fit:contain;
 }
